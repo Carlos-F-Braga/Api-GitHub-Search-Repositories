@@ -19,12 +19,12 @@ export function Cardlist (){
     }
 
     githubResponse();
-  }, [])
+  }, [input])
 
   return (
     <Container>
         {res.map((item, index) => (
-          <Card key={index} item={item}/>
+          <Card key={index} item={item} />
         ))}
     </Container>
   );

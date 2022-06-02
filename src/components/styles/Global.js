@@ -21,6 +21,11 @@ const GlobalStyles = createGlobalStyle`
     h2{
         color: ${({color}) => color || '#fff'};
     }
+    h4{
+        color: ${({color}) => color || '#FFFF00'};
+        font-size: 1.30em;
+    }
+
 
     p {
         opacity: 0.6;

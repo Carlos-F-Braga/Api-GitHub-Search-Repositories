@@ -21,7 +21,9 @@ export const request = (input) => {
                 id,
                 name: item.full_name,
                 description: item.description,
-                image
+                language: item.language,
+                image,
+                avatar: item.owner.avatar_url
             }
         });
 

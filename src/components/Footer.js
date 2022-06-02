@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <StyledFooter>
             <Container>
-                <img src="./images/logo_white.svg" alt="" />
+                <img style={{marginTop:"-30px", marginBottom:"-45px"}} src="./images/logo.png" alt="" />
 
                 <Flex>
           <ul>
@@ -22,21 +22,21 @@ export default function Footer() {
             <li>philadelphoescola@gmail.com</li>
           </ul>
           <ul>
-            <li>Sobre Nós</li>
-            <li>O Que Nós Fazemos</li>
+            <li>Sobre Mim</li>
+            <li>O Que Eu Faço</li>
             <li>FAQ</li>
           </ul>
 
           <ul>
             <li>Carreira</li>
             <li>Blog</li>
-            <li>Nos Contate</li>
+            <li>Me Contate</li>
           </ul>
 
           <SocialIcons />
         </Flex>
 
-        <p>&copy; 2022 Huddle. Todos direitos reservados</p>
+        <p>&copy; 2022 Github Repository Search. Todos direitos reservados</p>
 
             </Container>
         </StyledFooter>
