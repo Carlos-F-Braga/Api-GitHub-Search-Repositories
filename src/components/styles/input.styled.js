@@ -4,7 +4,7 @@ export const Input = styled.input`
     border-radius: 50px;
     border: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
+    cursor: text;
     font-size: 30px;
     font-weight: 700;
     padding: 15px 60px;
@@ -14,5 +14,6 @@ export const Input = styled.input`
     margin-top: 20px;
     &:hover {
         transform: scale(0.99);
+        cursor: text;
     }
 `
