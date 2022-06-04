@@ -9,8 +9,8 @@ import GlobalStyles from "./components/styles/Global";
 
 const theme = {
   colors: {
-    header: '#666666',
-    body: '#333333',
+    header: '#20b2aa',
+    body: '#000000',
     footer: '#4183C4'
   },
   mobile: '768px'
